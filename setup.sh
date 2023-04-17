@@ -115,7 +115,7 @@ menu_next
 if [ "$setup_continue" = "y" ]; then # y {{{
   clear
   info 'Processing data...'
-  cd $HOME
+  cd "$HOME"
   # Check to see if the user has write permissions in this directory to prevent a cryptic error later on
   if [ ! -w `pwd` ]; then
       echo 'Sorry, you do not have write permissions in this directory.';
