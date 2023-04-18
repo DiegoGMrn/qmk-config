@@ -54,5 +54,6 @@ NO OLVIDES REFERENCIAR A LOS AUTORES DE LOS CODIGOS QUE OCUPES
 // #define NO_DEBUG
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
+#define OLED_FONT_END 255
 // }}}
 // vim: set sw=2 ts=2 sts=2 et ft=c fdm=marker:
